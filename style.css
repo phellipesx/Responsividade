@@ -1,0 +1,358 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/Header\ Background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 50px 0 0 0;
+    font-family: 'Luckiest Guy';
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#container1 {
+    width: 200px;
+    margin: 0 auto;
+}
+
+header p {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+#container2 {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#download {
+    margin-right: 5px;
+    padding: 15px 30px;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#navegador {
+    margin-left: 5px;
+    padding: 15px 30px;
+    display: inline-flex;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Seção 1*/
+
+#first {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: inline-flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/*Universal*/
+
+.text {
+    width: 300px;
+}
+
+.text h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    flex-direction: column;
+    text-align: left;
+}
+
+.text p {
+    font-weight: lighter;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+/*Seção 2*/
+
+#second {
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+}
+
+.card2 {
+    display: inline-flex;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.card2 img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/*Seção 3*/
+
+#third {
+    display: flex;
+    justify-content: center;
+}
+
+.card3 {
+    display: inline-flex;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.card3 img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+/*Seção 4*/
+
+#fourth {
+    text-align: center;
+    background-color: #f6f6f6;
+}
+
+#fourth h2 {
+    padding-top: 40px;
+    width: 450px;
+    margin: 0 auto;
+    font-size: 35px;
+    font-family: 'Luckiest Guy';
+    letter-spacing: 1px;
+}
+
+#fourth p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: lighter;
+}
+
+#fourth img {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    padding: 10px;
+    width: 100%;
+    max-width: 150px;
+}
+
+/* Tablet (min-width: 768px) and (max-width: 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Seção 1 */
+    .card {
+      flex-direction: column;
+    }
+  
+    .text {
+      width: 100%;
+    }
+  
+    /* Seção 2 */
+    .card2 {
+      flex-direction: column;
+    }
+  
+    /* Seção 3 */
+    .card3 {
+      flex-direction: column;
+    }
+  
+    /* Seção 4 */
+    #fourth h2 {
+      font-size: 35px;
+    }
+  
+    #fourth p {
+      width: 100%;
+    }
+  
+    /* Footer */
+    footer {
+      flex-direction: column;
+    }
+  
+    footer img {
+      max-width: 150px;
+    }
+  }
+  
+  /* Mobile Large (min-width: 425px) and (max-width: 767px) */
+  @media only screen and (min-width: 425px) and (max-width: 767px) {
+    /* Seção 1 */
+    .card {
+      flex-direction: column;
+    }
+  
+    .text {
+      width: 100%;
+    }
+  
+    /* Seção 2 */
+    .card2 {
+      flex-direction: column;
+    }
+  
+    /* Seção 3 */
+    .card3 {
+      flex-direction: column;
+    }
+  
+    /* Seção 4 */
+    #fourth h2 {
+      font-size: 30px;
+    }
+  
+    #fourth p {
+      width: 100%;
+    }
+  
+    /* Footer */
+    footer {
+      flex-direction: column;
+    }
+  
+    footer img {
+      max-width: 120px;
+    }
+  }
+  
+/* Mobile Medium (min-width: 375px) and (max-width: 424px) */
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    /* Seção 1 */
+    .card {
+      flex-direction: column;
+    }
+  
+    .text {
+      width: 100%;
+    }
+  
+    /* Seção 2 */
+    .card2 {
+      flex-direction: column;
+    }
+  
+    /* Seção 3 */
+    .card3 {
+      flex-direction: column;
+    }
+  
+    /* Seção 4 */
+    #fourth h2 {
+      font-size: 25px;
+    }
+  
+    #fourth p {
+      width: 100%;
+    }
+  
+    /* Footer */
+    footer {
+      flex-direction: column;
+    }
+  
+    footer img {
+      max-width: 100px;
+    }
+}
+  
+/* Mobile Small (min-width: 320px) and (max-width: 374px) */
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    /* Seção 1 */
+    .card {
+      flex-direction: column;
+    }
+  
+    .text {
+      width: 100%;
+    }
+  
+    /* Seção 2 */
+    .card2 {
+      flex-direction: column;
+    }
+  
+    /* Seção 3 */
+    .card3 {
+      flex-direction: column;
+    }
+  
+    /* Seção 4 */
+    #fourth h2 {
+      font-size: 20px;
+    }
+  
+    #fourth p {
+      width: 100%;
+    }
+  
+    /* Footer */
+    footer {
+      flex-direction: column;
+    }
+}
